@@ -1,0 +1,143 @@
+.header-container--ul {
+    margin: 0 0 0 2px;
+}
+header .header-container--ul li a {
+    font-size: 1.2rem;
+}
+
+main .main-showcase--container {
+    height: 200px;
+}
+
+main .main-showcase--container h1 {
+    width: 250px;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+main .presentation-container--box {
+    width: 320px;
+    height: 530px;
+}
+
+main .container-box--text {
+    width: 290px;
+    height: auto;
+}
+
+main .container-box--text h2 {
+    font-size: 3.4rem;
+    height: auto;
+    line-height: 3.6rem;
+    text-align: center;
+}
+
+main .container-box--text p {
+    margin-top: 10px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+main .presentation-container--box span {
+    margin-top: 40px;
+}
+
+main .main-photografi-container h2 {
+    font-size: 3.4rem;
+}
+
+main .photografi-container--section {
+    margin-top: 20px;
+    width: 320px;
+    height: auto;
+}
+
+main .container-section {
+    width: 100%;
+    height: auto;
+}
+
+main .container-section--img {
+    grid-template-columns: 1fr;
+    width: 320px;
+    height: auto;
+}
+
+main .container-section--img img {
+    justify-self: center;
+    margin: 0 0 15px 0;
+}
+
+.podcast-container--img {
+    width: 100%;
+    height: 200px;
+}
+
+main .main-podcast--container h2 {
+    font-size: 3.4rem;
+}
+
+main .podcast--container--cards {
+    grid-template-columns: 1fr;
+    width: 320px;
+}
+
+main .main-container--redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+main .galery-container--img a {
+    margin: 15px 0 0 0;
+}
+
+
+
+
+
+
+
+
+.togle-btn {
+    display: block;
+}
+
+.togle-btn:hover {
+    opacity:0.9;
+}
+
+.nav-main ul.header-container--ul {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    width: 50%;
+    height: 100vh;
+    border-right: #ccc 1px solid;
+    opacity: .9;
+    padding: 30px;
+    transform: translateX(-500px);
+    transition: transform .5s ease-in-out;
+}
+
+.nav-main ul.header-container--ul li {
+    padding: 20px;
+    border-bottom: #ccc solid 1px;
+    font-size: 14px;        
+}
+
+.nav-main ul.header-container--ul li:last-child{
+    border-bottom: 0;
+}
+
+.nav-main ul.header-container--ul.show {
+    transform: translateX(-20px);
+}
